@@ -17,3 +17,9 @@ export default {
   }};
 
 </script>
+<style>
+.link-home {
+  color: white !important;
+  text-decoration: none;
+}
+</style>

@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Inicio from '../components/Inicio.vue'
+import Inicio from '../views/Inicio'
 import ClubeLista from '../views/ClubeLista'
 
 Vue.use(VueRouter)
@@ -13,7 +13,7 @@ const routes = [
   },
   {
     path: '/classificacao',
-    name: 'ClubeLista',
+    name: 'Classificação',
     component: ClubeLista
   }
 ]
